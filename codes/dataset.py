@@ -1,6 +1,5 @@
 from utils import *
 import matplotlib.pyplot as plt
-from SIFT_module import *
 import scipy.io as scio
 import os
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
