@@ -63,7 +63,7 @@ def test():
                 ### save img
                 if opt.save_img == True:
                     img_save = transforms.ToPILImage()((pred[0,0,:,:]).cpu())
-                    save_pth = opt.save_img_dir + opt.dataset_name + '/' + opt.model_name + '/' + img_dir[i][0]
+                    save_pth = opt.save_img_dir + opt.dataset_name + '/' + opt.model_name + '/' + img_dir[0]
                     if not os.path.exists(os.path.dirname(save_pth)):
                         os.makedirs(os.path.dirname(save_pth))
                     img_save.save(save_pth)  
