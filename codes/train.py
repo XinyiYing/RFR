@@ -19,7 +19,7 @@ parser.add_argument("--dataset_names", default=['IRSatVideo-LEO'], type=list,
 parser.add_argument("--img_norm_cfg", default=None, type=dict,
                     help="specific a img_norm_cfg, default=None (using img_norm_cfg values of each dataset)")
 
-parser.add_argument("--dataset_dir", default='/home/y/yxy/evaluation_new/data', type=str, help="train_dataset_dir")
+parser.add_argument("--dataset_dir", default='./data', type=str, help="train_dataset_dir")
 parser.add_argument("--seq_len", default=20, type=int, help="train_dataset_dir")
 parser.add_argument("--batchSize", type=int, default=3, help="Training batch sizse")
 parser.add_argument("--patchSize", type=int, default=128, help="Training patch size")
