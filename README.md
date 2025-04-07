@@ -129,7 +129,7 @@ Please contact us at ***yingxinyi18@nudt.edu.cn*** for any questions.
 @article{RFR,
   author = {Xinyi Ying, Li Liu, Zaipin Lin, Yangsi Shi, Yingqian Wang, Ruojing Li, Xu Cao, Boyang Li, Shilin Zhou},
   title = {Infrared Small Target Detection in Satellite Videos: A New Dataset and A Novel Recurrent Feature Refinement Framework},
-  journal = {Arxiv},
-  year = {2024},
+  journal = {TGRS},
+  year = {2025},
 }
 ```
