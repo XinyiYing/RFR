@@ -33,7 +33,7 @@ parser.add_argument("--scheduler_settings", default={'step': [5, 10, 15, 20, 25,
 parser.add_argument("--threads", type=int, default=1, help="Number of threads for data loader to use")
 parser.add_argument("--threshold", type=float, default=0.5, help="Threshold for test")
 parser.add_argument("--seed", type=int, default=42, help="Threshold for test")
-parser.add_argument("--sample_rate", type=int, default=20, help="Threshold for test")
+parser.add_argument("--sample_rate", type=int, default=5, help="Threshold for test")
 
 global opt
 opt = parser.parse_args()
