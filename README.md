@@ -1,11 +1,14 @@
 
 # *<center>Infrared Small Target Detection in Satellite Videos: A New Dataset and A Novel Recurrent Feature Refinement Framework</center>*
 
-## IRSatVideo-LEO Dataset
-***IRSatVideo-LEO is a large-scale dataset for multi-frame infrared small target (MIRST) detection in LEO satellite videos. IRSatVideo-LEO is a semi-simulated dataset with a real satellite background image and synthesized satellite motion, target appearance, trajectory and intensity. IRSatVideo-LEO consists of 200 image sequences, 91021 frames and 218038 targets, and we provide instance-level segmentation annotations to offer a infrared LEO satellite videos benchmark for MIRST detection and tracking.***<br>
+## IRSatVideo-LEO Dataset 
+
+***IRSatVideo-LEO is a large-scale dataset for multi-frame infrared small target (MIRST) detection in LEO satellite videos. IRSatVideo-LEO is a semi-simulated dataset with a real satellite background image and synthesized satellite motion, target appearance, trajectory and intensity. IRSatVideo-LEO consists of 200 image sequences, 91021 frames and 218038 targets, and we provide instance-level segmentation annotations to offer an infrared LEO satellite videos benchmark for MIRST detection and tracking. [[Paper]](https://arxiv.org/abs/2409.12448)***<br>
 
 ### Downloads
-[[Baidu Yun DownLoads]](https://pan.baidu.com/s/1es3dID8Xr2ZBf6I9Y5fi_g?pwd=1113)
+
+To access IRSatVideo-LEO dataset, please fill the following form: 
+[[Microsoft Forms]](https://forms.cloud.microsoft/r/YgTJfaaunT).
 
 ### Implementation
 
@@ -62,7 +65,7 @@ DCN Compiling
 <be>
 
 ### Datasets
-Download the [IRSatVideo-LEO Dataset](https://pan.baidu.com/s/1es3dID8Xr2ZBf6I9Y5fi_g?pwd=1113) dataset and put the images in `./codes/data/IRSatVideo-LEO`.  
+Download the IRSatVideo-LEO Dataset and put the images in `./codes/data/IRSatVideo-LEO`.  
 ```
   IRSatVideo-LEO
     └── images
@@ -129,7 +132,7 @@ Please contact us at ***yingxinyi18@nudt.edu.cn*** for any questions.
 @article{RFR,
   author = {Xinyi Ying, Li Liu, Zaipin Lin, Yangsi Shi, Yingqian Wang, Ruojing Li, Xu Cao, Boyang Li, Shilin Zhou},
   title = {Infrared Small Target Detection in Satellite Videos: A New Dataset and A Novel Recurrent Feature Refinement Framework},
-  journal = {TGRS},
+  journal = {IEEE Transactions on Geoscience and Remote Sensing},
   year = {2025},
 }
 ```
