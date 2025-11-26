@@ -8,7 +8,7 @@ IMG_EXTENSIONS = ('.jpg', '.JPG', '.jpeg', '.JPEG', '.png', '.PNG', '.ppm',
                   '.PPM', '.bmp', '.BMP', '.tif', '.TIF', '.tiff', '.TIFF', '.mat')
 
 class TrainSetLoader(Dataset):
-    def __init__(self, dataset_dir, dataset_name, seq_len, patch_size, sample_rate=1, img_norm_cfg=None, img_register=None, pos_prob=0.5):
+    def __init__(self, dataset_dir, dataset_name, seq_len, patch_size, sample_rate=1, img_norm_cfg=None, img_register=None, pos_prob=0.9):
         super(TrainSetLoader).__init__()
         self.dataset_dir = dataset_dir + '/' + dataset_name
         self.patch_size = patch_size
@@ -130,4 +130,5 @@ class augumentation(object):
             input = input.transpose(0, 2, 1)
             target = target.transpose(0, 2, 1)
         return input, target
+
 
